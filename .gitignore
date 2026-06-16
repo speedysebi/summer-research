@@ -1,0 +1,18 @@
+# run artifacts -- each run/ contains its own git repo (the workspace) plus
+# journals and checkpoint reports; those are outputs, not source
+runs/
+
+# analysis exports
+*.csv
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
