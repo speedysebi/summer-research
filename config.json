@@ -1,0 +1,50 @@
+{
+  "provider": {
+    "kind": "ollama",
+    "base_url": "http://localhost:11434",
+    "api_key": "",
+
+    "intake_model": "qwen2.5-coder:7b",
+    "worker_model": "qwen2.5-coder:7b",
+    "sentinel_model": "qwen2.5-coder:14b",
+    "recovery_model": "qwen2.5-coder:14b",
+
+    "temperature": 0.2,
+    "sentinel_temperature": 0.0,
+    "max_tokens": 4096,
+    "num_ctx": 8192,
+    "timeout_s": 600,
+    "retries": 3
+  },
+
+  "run": {
+    "wall_clock_budget_h": 8.0,
+    "max_attempts_per_unit": 2,
+    "max_halts": 8,
+    "max_consecutive_errors": 3,
+    "checkpoint_every": 1,
+    "allow_verify_exec": true,
+    "verify_timeout_s": 120
+  },
+
+  "sentinel": {
+    "hard_floor": 45,
+    "note_floor": 70,
+    "baseline_drop": 20,
+    "ema_alpha": 0.4,
+    "consecutive_notes_halt": 3,
+    "good_threshold": 75
+  },
+
+  "recovery": {
+    "base_overlap": 1,
+    "overlap_escalation": 4,
+    "max_rewind_depth": 25
+  },
+
+  "mock": {
+    "first_failure_unit": 15,
+    "improvement_per_recovery": 12,
+    "decay_window": 2
+  }
+}
