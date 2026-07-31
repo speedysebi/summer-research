@@ -25,7 +25,7 @@ legend: # >=75 clean   ~ 45-74 degrading   . <45 failed
 ```
 
 No dependencies. Python 3.9+ and `git`, stdlib only otherwise.
-Tests: `python -m unittest discover tests`
+Tests: `python -m unittest discover tests` (61 tests)
 
 ---
 
@@ -41,7 +41,12 @@ python run.py demo --units 40
 # 3. Check the setup BEFORE you lose a night to a typo in a model name.
 python run.py doctor
 
-# 4. Plan a real job (Harness 1 — this is the interactive part).
+# 4a. Or skip intake entirely and run the built-in benchmark.
+python run.py bench --difficulty easy --count 200
+python run.py start
+python run.py score        # graded against hidden tests
+
+# 4b. Plan a real job (Harness 1 — this is the interactive part).
 python run.py intake
 python run.py intake --items-file examples/problems.txt   # when you have the list
 
@@ -215,10 +220,91 @@ and a truncated brace, and you find out four hours later.
 
 ---
 
+## The problem bank
+
+The repository ships a corpus to run the harness against:
+
+| bank | count | what it is |
+|---|---|---|
+| `easy` | 200 | one pass, one idea, no auxiliary structure |
+| `medium` | 200 | needs a data structure, a second pass, or a non-obvious invariant |
+| `hard` | 200 | 2-D DP, graphs with weights, backtracking, monotonic stacks, bitmask DP |
+| `codingbat_style` | 110 | short warm-ups, below `easy` |
+
+710 problems, 73 families, ~11,200 test cases. These are **LeetCode-style**, not
+LeetCode: original statements written to the same shape, so there is no scraped or
+copyrighted text in the repo.
+
+**The problems are generated, and that is the point.** `bench/families_*.py` define
+families with a parameterised reference solution; `bench/generate.py` runs each
+reference against generated inputs to produce the expected outputs. Nobody hand-writes
+an expected answer, so a wrong answer in the bank is a build failure rather than a
+model silently marked wrong for eight hours.
+
+Two gates run on every problem before it is written:
+
+- the reference must execute on every generated input, and
+- **the outputs must not all be identical.** A problem whose answer never changes can
+  be passed by returning a constant, so it tests nothing. This gate rejected fifteen
+  problems during the build — "is this sorted" over random lists is always False,
+  perfect numbers never appear in a random draw, a random UDLR walk never returns to
+  the origin. Each needed a generator that actually reaches both branches.
+
+Rebuild with `python -m bench.generate`, or check without writing:
+
+```bash
+python -m bench.generate --check
+```
+
+---
+
+## Evaluating the model as it goes
+
+Harness 2 judges whether work *looks* right. The evaluator judges whether it *is*
+right, and that is ground truth.
+
+`python run.py bench` builds a run straight from the bank — Harness 1's
+non-conversational path, since the bank already defines what done means. Every unit
+gets a `verify` that runs its hidden tests:
+
+```
+python run.py eval-one e042 solutions/e042.py
+```
+
+Each candidate runs in a separate process with a timeout, so an infinite loop or a
+`sys.exit` in generated code costs one unit rather than the night.
+
+The measured pass rate then flows through the whole system:
+
+- **as a graded detector signal** — `detect_wrong_answer` sets the score ceiling to
+  `rate × 70`, so "failed two edge cases" is a NOTE and "nothing works" is a HALT.
+  Partial credit matters: a binary pass/fail throws away most of the signal.
+- **into the journal**, per unit, so `analyze` can plot accuracy against how deep into
+  a segment the model was. That curve is the measured version of the decay this whole
+  project is about:
+
+```
+MEASURED CORRECTNESS  (from the problem bank's hidden tests)
+  solved outright   87 / 140  (62.1%)
+  mean pass rate    71.4% of test cases
+    easy     n=100  solved  78.0%   mean pass  84.2%
+    medium   n=40   solved  22.5%   mean pass  39.6%
+  accuracy by depth into a segment:
+    +0   100.0% ####################
+    +11   92.3% ##################
+    +12    6.2% #
+```
+
+- **`python run.py score`** re-grades a finished workspace from scratch, which is how
+  you check a run after the fact rather than trusting what it logged at the time.
+
+---
+
 ## Layout
 
 ```
-run.py                       CLI: intake / start / resume / status / report / analyze / doctor / demo
+run.py                       CLI: intake / bench / start / resume / status /
+                                  report / analyze / score / doctor / demo
 config.json                  provider, thresholds, budgets
 lightsout/
   config.py                  defaults + merge
@@ -233,7 +319,18 @@ lightsout/
   orchestrator.py            the lights-out loop
   analysis.py                research metrics over the journal
   doctor.py                  preflight checks
-tests/test_harness.py        37 tests -- detectors, recovery policy, rewind, end-to-end
+  evaluator.py               runs a candidate against a problem's hidden tests
+  benchrun.py                turns the bank into a run spec; scores a workspace
+bench/
+  core.py                    family registry, input generators, case builder
+  families_easy.py           easy tier
+  families_medium*.py        medium tier
+  families_hard*.py          hard tier
+  codingbat.py               warm-up tier
+  generate.py                builds problems/*.json, with the validity gates
+  problems/*.json            the generated banks (600 + 110)
+tests/test_harness.py        detectors, recovery policy, rewind, end-to-end
+tests/test_bench.py          bank integrity and the evaluator
 examples/problems.txt        sample work-item list for --items-file
 slash/lightsout.md           Claude Code slash command -- the /tool front door to Harness 1
 runs/<run_id>/
