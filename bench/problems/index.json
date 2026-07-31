@@ -1,0 +1,6789 @@
+[
+ {
+  "id": "e001",
+  "title": "Sum of all elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e002",
+  "title": "Count Values That Are Even",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e003",
+  "title": "Keep Only Values That Are Even",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e004",
+  "title": "String Reversed",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e005",
+  "title": "Count Vowels",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e006",
+  "title": "Integer Digit sum",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e007",
+  "title": "First N Fibonacci Numbers",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e008",
+  "title": "Index Of Target",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e009",
+  "title": "Index Of Maximum",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e010",
+  "title": "All Even",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e011",
+  "title": "Rotate Left By K",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e012",
+  "title": "Running Sum",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e013",
+  "title": "Most Frequent Value",
+  "difficulty": "easy",
+  "family": "frequency",
+  "topics": [
+   "counting",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "e014",
+  "title": "Is Palindrome",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e015",
+  "title": "Longest Word",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e016",
+  "title": "Matrix Row Sums",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e017",
+  "title": "Square Matrix Main Diagonal Sum",
+  "difficulty": "easy",
+  "family": "matrix_diagonals",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e018",
+  "title": "Multiples Up To N",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e019",
+  "title": "FizzBuzz 3/5",
+  "difficulty": "easy",
+  "family": "fizzbuzz_family",
+  "topics": [
+   "math",
+   "string"
+  ]
+ },
+ {
+  "id": "e020",
+  "title": "Absolute Values",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e021",
+  "title": "Element-wise Sum",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e022",
+  "title": "Leap Year",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e023",
+  "title": "Binary String Count Ones",
+  "difficulty": "easy",
+  "family": "binary_strings",
+  "topics": [
+   "bit-manipulation",
+   "string"
+  ]
+ },
+ {
+  "id": "e024",
+  "title": "Sum of the even-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e025",
+  "title": "Count Values That Are Odd",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e026",
+  "title": "Keep Only Values That Are Odd",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e027",
+  "title": "String In upper case",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e028",
+  "title": "Count Consonants",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e029",
+  "title": "Integer Digit product",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e030",
+  "title": "First N Square Numbers",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e031",
+  "title": "Last Index Of Target",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e032",
+  "title": "Index Of Minimum",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e033",
+  "title": "Any Negative",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e034",
+  "title": "Rotate Right By K",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e035",
+  "title": "Running Maximum",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e036",
+  "title": "Least Frequent Value",
+  "difficulty": "easy",
+  "family": "frequency",
+  "topics": [
+   "counting",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "e037",
+  "title": "Is All Digits",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e038",
+  "title": "Shortest Word",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e039",
+  "title": "Matrix Column Sums",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e040",
+  "title": "Square Matrix Anti-Diagonal Sum",
+  "difficulty": "easy",
+  "family": "matrix_diagonals",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e041",
+  "title": "Sum Of Multiples",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e042",
+  "title": "FizzBuzz 2/3",
+  "difficulty": "easy",
+  "family": "fizzbuzz_family",
+  "topics": [
+   "math",
+   "string"
+  ]
+ },
+ {
+  "id": "e043",
+  "title": "Signs",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e044",
+  "title": "Element-wise Product",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e045",
+  "title": "Letter Grade",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e046",
+  "title": "Binary String Binary To Decimal",
+  "difficulty": "easy",
+  "family": "binary_strings",
+  "topics": [
+   "bit-manipulation",
+   "string"
+  ]
+ },
+ {
+  "id": "e047",
+  "title": "Sum of the odd-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e048",
+  "title": "Count Values That Are Positive",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e049",
+  "title": "Keep Only Values That Are Positive",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e050",
+  "title": "String In lower case",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e051",
+  "title": "Count Digits",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e052",
+  "title": "Integer Digit count",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e053",
+  "title": "First N Cubes",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e054",
+  "title": "Count Occurrences",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e055",
+  "title": "Second Largest Distinct",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e056",
+  "title": "Is Sorted Ascending",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e057",
+  "title": "First K Elements",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e058",
+  "title": "Running Minimum",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e059",
+  "title": "Count Distinct Values",
+  "difficulty": "easy",
+  "family": "frequency",
+  "topics": [
+   "counting",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "e060",
+  "title": "Is All Letters",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e061",
+  "title": "Count Words",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e062",
+  "title": "Matrix Matrix Total",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e063",
+  "title": "Square Matrix Main Diagonal",
+  "difficulty": "easy",
+  "family": "matrix_diagonals",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e064",
+  "title": "Count Multiples",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e065",
+  "title": "FizzBuzz 4/6",
+  "difficulty": "easy",
+  "family": "fizzbuzz_family",
+  "topics": [
+   "math",
+   "string"
+  ]
+ },
+ {
+  "id": "e066",
+  "title": "Cap At K",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e067",
+  "title": "Element-wise Maximum",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e068",
+  "title": "Hours To Minutes",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e069",
+  "title": "Binary String Longest Run Of Ones",
+  "difficulty": "easy",
+  "family": "binary_strings",
+  "topics": [
+   "bit-manipulation",
+   "string"
+  ]
+ },
+ {
+  "id": "e070",
+  "title": "Sum of the positive elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e071",
+  "title": "Count Values That Are Negative",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e072",
+  "title": "Keep Only Values That Are Negative",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e073",
+  "title": "String With case swapped",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e074",
+  "title": "Count Upper-case letters",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e075",
+  "title": "Integer Largest digit",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e076",
+  "title": "First N Triangular Numbers",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e077",
+  "title": "Contains Target",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e078",
+  "title": "Second Smallest Distinct",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e079",
+  "title": "Is Sorted Descending",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e080",
+  "title": "Last K Elements",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e081",
+  "title": "Running Product",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e082",
+  "title": "Values Appearing Once",
+  "difficulty": "easy",
+  "family": "frequency",
+  "topics": [
+   "counting",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "e083",
+  "title": "Has Repeated Character",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e084",
+  "title": "Capitalise Each Word",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e085",
+  "title": "Matrix Flatten",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e086",
+  "title": "Square Matrix Anti-Diagonal",
+  "difficulty": "easy",
+  "family": "matrix_diagonals",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e087",
+  "title": "Greatest Common Divisor",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e088",
+  "title": "FizzBuzz 3/7",
+  "difficulty": "easy",
+  "family": "fizzbuzz_family",
+  "topics": [
+   "math",
+   "string"
+  ]
+ },
+ {
+  "id": "e089",
+  "title": "Floor At K",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e090",
+  "title": "Common Values",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e091",
+  "title": "Seconds To HMS",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e092",
+  "title": "Binary String Flip Bits",
+  "difficulty": "easy",
+  "family": "binary_strings",
+  "topics": [
+   "bit-manipulation",
+   "string"
+  ]
+ },
+ {
+  "id": "e093",
+  "title": "Sum of the negative elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e094",
+  "title": "Count Values That Are Zero",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e095",
+  "title": "Keep Only Values That Are Zero",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e096",
+  "title": "String Without vowels",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e097",
+  "title": "Count Lower-case letters",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e098",
+  "title": "Integer Smallest digit",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e099",
+  "title": "First N Powers Of Two",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e100",
+  "title": "Count Greater Than Target",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e101",
+  "title": "Missing Number",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e102",
+  "title": "All Distinct",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e103",
+  "title": "Every Kth Element",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e104",
+  "title": "Adjacent Differences",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e105",
+  "title": "Values Appearing More Than Once",
+  "difficulty": "easy",
+  "family": "frequency",
+  "topics": [
+   "counting",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "e106",
+  "title": "Is Pangram",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e107",
+  "title": "Reverse Each Word",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e108",
+  "title": "Matrix Transpose",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e109",
+  "title": "Least Common Multiple",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e110",
+  "title": "FizzBuzz 5/10",
+  "difficulty": "easy",
+  "family": "fizzbuzz_family",
+  "topics": [
+   "math",
+   "string"
+  ]
+ },
+ {
+  "id": "e111",
+  "title": "Scale By K",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e112",
+  "title": "Values Only In First",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e113",
+  "title": "Celsius To Fahrenheit Floor",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e114",
+  "title": "Binary String Is Alternating",
+  "difficulty": "easy",
+  "family": "binary_strings",
+  "topics": [
+   "bit-manipulation",
+   "string"
+  ]
+ },
+ {
+  "id": "e115",
+  "title": "Sum of the even values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e116",
+  "title": "Count Values That Are A multiple of 3",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e117",
+  "title": "Keep Only Values That Are A multiple of 3",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e118",
+  "title": "String Without digits",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e119",
+  "title": "Count Spaces",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e120",
+  "title": "Integer Reversed digits",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e121",
+  "title": "First N Primes",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e122",
+  "title": "Closest To Target",
+  "difficulty": "easy",
+  "family": "list_search",
+  "topics": [
+   "array",
+   "search"
+  ]
+ },
+ {
+  "id": "e123",
+  "title": "Find The Duplicate",
+  "difficulty": "easy",
+  "family": "list_extremes",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e124",
+  "title": "All Same",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e125",
+  "title": "Drop Every Kth",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e126",
+  "title": "Adjacent Sums",
+  "difficulty": "easy",
+  "family": "running_totals",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "e127",
+  "title": "Starts And Ends Same",
+  "difficulty": "easy",
+  "family": "string_checks",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e128",
+  "title": "Reverse Word Order",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e129",
+  "title": "Matrix Largest Element",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e130",
+  "title": "Divisors Of N",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e131",
+  "title": "Offset By K",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e132",
+  "title": "Interleave",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e133",
+  "title": "Is Power Of Two",
+  "difficulty": "easy",
+  "family": "simple_rules",
+  "topics": [
+   "logic",
+   "math"
+  ]
+ },
+ {
+  "id": "e134",
+  "title": "Sum of the odd values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e135",
+  "title": "Count Values That Are A multiple of 5",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e136",
+  "title": "Keep Only Values That Are A multiple of 5",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e137",
+  "title": "String Without spaces",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e138",
+  "title": "Count Alphanumeric characters",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e139",
+  "title": "Integer Digits ascending",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e140",
+  "title": "Factorial",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e141",
+  "title": "Is Arithmetic",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e142",
+  "title": "Repeat Each K Times",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e143",
+  "title": "Word Lengths",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e144",
+  "title": "Matrix Count Zeros",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e145",
+  "title": "Count Divisors",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e146",
+  "title": "Modulo K",
+  "difficulty": "easy",
+  "family": "clamp_scale",
+  "topics": [
+   "array",
+   "math"
+  ]
+ },
+ {
+  "id": "e147",
+  "title": "Concatenate Distinct",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e148",
+  "title": "Sum of the distinct values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e149",
+  "title": "Count Values That Are Greater than 10",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e150",
+  "title": "Keep Only Values That Are Greater than 10",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e151",
+  "title": "String With characters sorted",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e152",
+  "title": "Count Punctuation marks",
+  "difficulty": "easy",
+  "family": "string_count",
+  "topics": [
+   "counting",
+   "string"
+  ]
+ },
+ {
+  "id": "e153",
+  "title": "Integer Digits descending",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e154",
+  "title": "Collatz Steps",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e155",
+  "title": "Sums To Zero",
+  "difficulty": "easy",
+  "family": "list_predicates",
+  "topics": [
+   "array",
+   "logic"
+  ]
+ },
+ {
+  "id": "e156",
+  "title": "Chunk Into Size K",
+  "difficulty": "easy",
+  "family": "list_reshape",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e157",
+  "title": "Sort Words Alphabetically",
+  "difficulty": "easy",
+  "family": "word_ops",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e158",
+  "title": "Matrix Row With Largest Sum",
+  "difficulty": "easy",
+  "family": "matrix_basic",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "e159",
+  "title": "Is Prime",
+  "difficulty": "easy",
+  "family": "divisibility",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e160",
+  "title": "Dot Product",
+  "difficulty": "easy",
+  "family": "two_lists",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e161",
+  "title": "Product of all elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e162",
+  "title": "Count Values That Are A perfect square",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e163",
+  "title": "Keep Only Values That Are A perfect square",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e164",
+  "title": "String With duplicates removed",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e165",
+  "title": "Integer Alternating digit sum",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e166",
+  "title": "Sum To N",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e167",
+  "title": "Product of the even-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e168",
+  "title": "Count Values That Are A two-digit number",
+  "difficulty": "easy",
+  "family": "count_matching",
+  "topics": [
+   "array",
+   "counting"
+  ]
+ },
+ {
+  "id": "e169",
+  "title": "Keep Only Values That Are A two-digit number",
+  "difficulty": "easy",
+  "family": "filter_list",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e170",
+  "title": "String With letters only",
+  "difficulty": "easy",
+  "family": "string_transform",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "e171",
+  "title": "Integer Count even digits",
+  "difficulty": "easy",
+  "family": "digit_math",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "e172",
+  "title": "Count Digits Total",
+  "difficulty": "easy",
+  "family": "sequences",
+  "topics": [
+   "math",
+   "simulation"
+  ]
+ },
+ {
+  "id": "e173",
+  "title": "Product of the odd-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e174",
+  "title": "Product of the positive elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e175",
+  "title": "Product of the negative elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e176",
+  "title": "Product of the even values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e177",
+  "title": "Product of the odd values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e178",
+  "title": "Product of the distinct values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e179",
+  "title": "Maximum of all elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e180",
+  "title": "Maximum of the even-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e181",
+  "title": "Maximum of the odd-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e182",
+  "title": "Maximum of the positive elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e183",
+  "title": "Maximum of the negative elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e184",
+  "title": "Maximum of the even values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e185",
+  "title": "Maximum of the odd values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e186",
+  "title": "Maximum of the distinct values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e187",
+  "title": "Minimum of all elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e188",
+  "title": "Minimum of the even-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e189",
+  "title": "Minimum of the odd-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e190",
+  "title": "Minimum of the positive elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e191",
+  "title": "Minimum of the negative elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e192",
+  "title": "Minimum of the even values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e193",
+  "title": "Minimum of the odd values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e194",
+  "title": "Minimum of the distinct values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e195",
+  "title": "Count of all elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e196",
+  "title": "Count of the even-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e197",
+  "title": "Count of the odd-indexed elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e198",
+  "title": "Count of the positive elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e199",
+  "title": "Count of the negative elements",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "e200",
+  "title": "Count of the even values",
+  "difficulty": "easy",
+  "family": "array_aggregate",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m001",
+  "title": "Two Sum On Sorted Input",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m002",
+  "title": "Group Anagrams",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m003",
+  "title": "Maximum Sum Of Size K",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m004",
+  "title": "Merge Overlapping Intervals",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m005",
+  "title": "Valid Bracket Sequence",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m006",
+  "title": "Search In Rotated Sorted List",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m007",
+  "title": "Climbing Stairs",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m008",
+  "title": "Spiral Order",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m009",
+  "title": "Longest Palindromic Substring Length",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m010",
+  "title": "Single Number",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m011",
+  "title": "Power Function",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m012",
+  "title": "Product Except Self",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m013",
+  "title": "Sort By Frequency Then Value",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m014",
+  "title": "Count Connected Components",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m015",
+  "title": "Count Subsets Summing To Target",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m016",
+  "title": "Find All Duplicates",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m017",
+  "title": "Robot Returns To Origin",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m018",
+  "title": "Minimum Jumps To End",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m019",
+  "title": "Kth Largest Value",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m020",
+  "title": "Unique Paths In Grid",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m021",
+  "title": "Parse Integer With Sign",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m022",
+  "title": "Count Subsets With Even Sum",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m023",
+  "title": "Longest Common Subsequence Length",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m024",
+  "title": "Pairs With Difference K",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m025",
+  "title": "First Unique Character",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m026",
+  "title": "Longest Substring Without Repeats",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m027",
+  "title": "Total Covered Length",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m028",
+  "title": "Next Greater Element",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m029",
+  "title": "Find Minimum In Rotated List",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m030",
+  "title": "House Robber",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m031",
+  "title": "Rotate Image Clockwise",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m032",
+  "title": "Run Length Encode",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m033",
+  "title": "Counting Bits",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m034",
+  "title": "Happy Number",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m035",
+  "title": "Pivot Index",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m036",
+  "title": "Sort By Absolute Value",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m037",
+  "title": "Shortest Distances From Source",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m038",
+  "title": "Count Permutations Of Distinct",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m039",
+  "title": "Next Permutation",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m040",
+  "title": "Final Position",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m041",
+  "title": "Gas Station Start",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m042",
+  "title": "K Largest Values",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m043",
+  "title": "Unique Paths With Obstacles",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m044",
+  "title": "Valid Number",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m045",
+  "title": "Largest Subset Sum Below K",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m046",
+  "title": "Edit Distance",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m047",
+  "title": "Container With Most Water",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m048",
+  "title": "Top K Frequent Values",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m049",
+  "title": "Minimum Size Subarray Sum",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m050",
+  "title": "Maximum Concurrent Intervals",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m051",
+  "title": "Days Until Warmer",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m052",
+  "title": "First And Last Position",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m053",
+  "title": "Coin Change Minimum Coins",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m054",
+  "title": "Set Matrix Zeros",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m055",
+  "title": "Count And Say",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m056",
+  "title": "Hamming Distance",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m057",
+  "title": "Trailing Zeros In Factorial",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m058",
+  "title": "Range Sum Queries",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m059",
+  "title": "Sort Even Before Odd",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m060",
+  "title": "Graph Has Cycle",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m061",
+  "title": "Tower Of Hanoi Moves",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m062",
+  "title": "Count Triplets Summing To Zero",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m063",
+  "title": "Candy Crush Once",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m064",
+  "title": "Partition Labels",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m065",
+  "title": "K Smallest Values",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m066",
+  "title": "Minimum Path Sum",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m067",
+  "title": "Split Balanced Strings",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m068",
+  "title": "Count Distinct Subset Sums",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m069",
+  "title": "Is Subsequence",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m070",
+  "title": "Move Zeros To End",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m071",
+  "title": "Count Subarrays Summing To K",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m072",
+  "title": "Longest Substring With At Most K Distinct",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m073",
+  "title": "Minimum Removals For Disjoint",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m074",
+  "title": "Evaluate Reverse Polish Notation",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m075",
+  "title": "Insert Position",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m076",
+  "title": "Maximum Subarray Sum",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m077",
+  "title": "Pascal Triangle Rows",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m078",
+  "title": "Add Binary Strings",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m079",
+  "title": "Count Set Bits",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m080",
+  "title": "Excel Column Title",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m081",
+  "title": "Count Subarrays Divisible By K",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m082",
+  "title": "Sort By Digit Sum",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m083",
+  "title": "Is Bipartite",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m084",
+  "title": "Nth Catalan Number",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m085",
+  "title": "First Missing Positive",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m086",
+  "title": "Running Average Window",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m087",
+  "title": "Minimum Arrows To Burst",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m088",
+  "title": "Last Stone Weight",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m089",
+  "title": "Maximal Square Area",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m090",
+  "title": "Licence Key Formatting",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m091",
+  "title": "Can Partition Into Equal Halves",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m092",
+  "title": "Number Of Distinct Substrings",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m093",
+  "title": "Remove Duplicates From Sorted",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m094",
+  "title": "Longest Consecutive Run",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m095",
+  "title": "Maximum Average Of Size K",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m096",
+  "title": "Count Non-Overlapping Kept",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m097",
+  "title": "Remove K Digits For Minimum",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m098",
+  "title": "Integer Square Root",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m099",
+  "title": "Longest Increasing Subsequence",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m100",
+  "title": "Search Sorted Matrix",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m101",
+  "title": "Multiply Digit Strings",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m102",
+  "title": "Reverse Bits In Byte",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m103",
+  "title": "Excel Column Number",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m104",
+  "title": "Maximum Circular Subarray Sum",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m105",
+  "title": "K Closest To Zero",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m106",
+  "title": "Largest Component Size",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m107",
+  "title": "Count Balanced Bracket Strings",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m108",
+  "title": "Longest Mountain Length",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m109",
+  "title": "Circular Queue Operations",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m110",
+  "title": "Boats To Save People",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m111",
+  "title": "Kth Largest Distinct",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m112",
+  "title": "Count Islands",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m113",
+  "title": "Count Valid Words",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m114",
+  "title": "Minimum Subset Sum Difference",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m115",
+  "title": "Rotate String Check",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m116",
+  "title": "Sort Colours",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m117",
+  "title": "Intersection Of Two Lists",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m118",
+  "title": "Count Anagram Occurrences",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m119",
+  "title": "Gaps Between Intervals",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m120",
+  "title": "Backspace String Compare",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m121",
+  "title": "Find Peak Index",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m122",
+  "title": "Decode Ways",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m123",
+  "title": "Count Negative Elements",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m124",
+  "title": "Roman To Integer",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m125",
+  "title": "Missing Number By XOR",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m126",
+  "title": "Count Primes Below N",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m127",
+  "title": "Equilibrium Count",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m128",
+  "title": "Kth Smallest Value",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m129",
+  "title": "Is Connected Tree",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m130",
+  "title": "Count Binary Strings Without Adjacent Ones",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m131",
+  "title": "Product Sign",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m132",
+  "title": "Stack Operations",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m133",
+  "title": "Assign Cookies",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m134",
+  "title": "Median Of List",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m135",
+  "title": "Triangle Minimum Path",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m136",
+  "title": "Most Common Word",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m137",
+  "title": "Count Subsets Of Size K",
+  "difficulty": "medium",
+  "family": "subsets",
+  "topics": [
+   "backtracking",
+   "combinatorics"
+  ]
+ },
+ {
+  "id": "m138",
+  "title": "Count Palindromic Substrings",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m139",
+  "title": "Valid Palindrome Ignoring Non-Alphanumeric",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m140",
+  "title": "Isomorphic Strings",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m141",
+  "title": "Longest Repeating Character Replacement",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m142",
+  "title": "Interval With Largest Span",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m143",
+  "title": "Longest Valid Parentheses Prefix",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m144",
+  "title": "Minimum Eating Speed",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m145",
+  "title": "Word Break",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m146",
+  "title": "Reshape Matrix",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m147",
+  "title": "Integer To Roman",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m148",
+  "title": "Is Power Of Four",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m149",
+  "title": "Perfect Number",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m150",
+  "title": "Prefix Sums",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m151",
+  "title": "Largest Concatenated Number",
+  "difficulty": "medium",
+  "family": "sorting_impl",
+  "topics": [
+   "sorting"
+  ]
+ },
+ {
+  "id": "m152",
+  "title": "Count Isolated Nodes",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m153",
+  "title": "Combinations Count",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m154",
+  "title": "Sort By Parity Stable",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m155",
+  "title": "Josephus Survivor",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m156",
+  "title": "Maximum Units On Truck",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m157",
+  "title": "Minimum Cost To Connect Sticks",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m158",
+  "title": "Max Points Collected",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m159",
+  "title": "Detect Capital Use",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m160",
+  "title": "Minimum Insertions For Palindrome",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m161",
+  "title": "Reverse Only Vowels",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m162",
+  "title": "Ransom Note",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m163",
+  "title": "Count Subarrays With Sum Below K",
+  "difficulty": "medium",
+  "family": "sliding_window",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "m164",
+  "title": "Point Covered Count",
+  "difficulty": "medium",
+  "family": "intervals",
+  "topics": [
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m165",
+  "title": "Score Of Parentheses",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m166",
+  "title": "Split Array Largest Sum",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m167",
+  "title": "Jump Game Reachable",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m168",
+  "title": "Anti-Diagonal Groups",
+  "difficulty": "medium",
+  "family": "matrix_medium",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "m169",
+  "title": "Compare Version Numbers",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m170",
+  "title": "Bitwise AND Of Range",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m171",
+  "title": "Integer Break Product",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m172",
+  "title": "Subarray Sum Exists",
+  "difficulty": "medium",
+  "family": "prefix_sum",
+  "topics": [
+   "array",
+   "prefix-sum"
+  ]
+ },
+ {
+  "id": "m173",
+  "title": "Degree Sequence",
+  "difficulty": "medium",
+  "family": "graph_basic",
+  "topics": [
+   "bfs",
+   "graph"
+  ]
+ },
+ {
+  "id": "m174",
+  "title": "Count Paths In Grid",
+  "difficulty": "medium",
+  "family": "recursion_counting",
+  "topics": [
+   "combinatorics",
+   "recursion"
+  ]
+ },
+ {
+  "id": "m175",
+  "title": "Max Difference After Smaller",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m176",
+  "title": "Game Of Life Step",
+  "difficulty": "medium",
+  "family": "simulation",
+  "topics": [
+   "simulation"
+  ]
+ },
+ {
+  "id": "m177",
+  "title": "Largest Sum After K Negations",
+  "difficulty": "medium",
+  "family": "greedy",
+  "topics": [
+   "greedy"
+  ]
+ },
+ {
+  "id": "m178",
+  "title": "Sliding Window Maximum",
+  "difficulty": "medium",
+  "family": "selection",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "m179",
+  "title": "Count Paths With Exactly K Turns",
+  "difficulty": "medium",
+  "family": "grid_dp",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "m180",
+  "title": "Reverse Vowels Order",
+  "difficulty": "medium",
+  "family": "string_parsing",
+  "topics": [
+   "parsing",
+   "string"
+  ]
+ },
+ {
+  "id": "m181",
+  "title": "Longest Word In Dictionary Subsequence",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m182",
+  "title": "Merge Two Sorted Lists",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m183",
+  "title": "Majority Element",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m184",
+  "title": "Remove Adjacent Duplicates",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m185",
+  "title": "Single Element In Sorted Pairs",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m186",
+  "title": "Minimum Cost Climbing Stairs",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m187",
+  "title": "Reverse Words With Single Spaces",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m188",
+  "title": "Swap Odd And Even Bits",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m189",
+  "title": "Base Conversion",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m190",
+  "title": "Count Inversions",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "m191",
+  "title": "Group Shifted Strings Count",
+  "difficulty": "medium",
+  "family": "misc_medium",
+  "topics": [
+   "array",
+   "string"
+  ]
+ },
+ {
+  "id": "m192",
+  "title": "Squares Of A Sorted List",
+  "difficulty": "medium",
+  "family": "two_pointers",
+  "topics": [
+   "array",
+   "two-pointers"
+  ]
+ },
+ {
+  "id": "m193",
+  "title": "Two Sum Unsorted",
+  "difficulty": "medium",
+  "family": "hash_table",
+  "topics": [
+   "hash-table"
+  ]
+ },
+ {
+  "id": "m194",
+  "title": "Simplify Unix Path",
+  "difficulty": "medium",
+  "family": "stack",
+  "topics": [
+   "stack"
+  ]
+ },
+ {
+  "id": "m195",
+  "title": "Count Values Below Target",
+  "difficulty": "medium",
+  "family": "binary_search",
+  "topics": [
+   "binary-search"
+  ]
+ },
+ {
+  "id": "m196",
+  "title": "Count Ways To Make Amount",
+  "difficulty": "medium",
+  "family": "dp_1d",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "m197",
+  "title": "Longest Common Prefix",
+  "difficulty": "medium",
+  "family": "string_medium",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "m198",
+  "title": "XOR Of Range",
+  "difficulty": "medium",
+  "family": "bit_manipulation",
+  "topics": [
+   "bit-manipulation"
+  ]
+ },
+ {
+  "id": "m199",
+  "title": "Sum Of Digits Until Single",
+  "difficulty": "medium",
+  "family": "math_medium",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "m200",
+  "title": "Rearrange Alternating Sign",
+  "difficulty": "medium",
+  "family": "array_medium",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h001",
+  "title": "Distinct Subsequences Count",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h002",
+  "title": "Knapsack Maximum Value",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h003",
+  "title": "Shortest Path Weights",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h004",
+  "title": "N Queens Solution Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h005",
+  "title": "Largest Rectangle In Histogram",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h006",
+  "title": "Median Of Two Sorted Lists",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h007",
+  "title": "Maximum Gap After Sorting",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h008",
+  "title": "Tree Maximum Depth",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h009",
+  "title": "Count Components By Union Find",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h010",
+  "title": "Minimum Window Substring",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h011",
+  "title": "Stone Game First Player Wins",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h012",
+  "title": "Travelling Salesman Path Cost",
+  "difficulty": "hard",
+  "family": "bitmask_dp",
+  "topics": [
+   "bitmask",
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h013",
+  "title": "Longest Increasing Subsequence Count",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h014",
+  "title": "Meeting Rooms Required",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h015",
+  "title": "Text Justification Line Count",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h016",
+  "title": "Nth Digit Of Sequence",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h017",
+  "title": "Max Points On A Line",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h018",
+  "title": "Minimum Falling Path Sum",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h019",
+  "title": "Unique Binary Search Trees",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h020",
+  "title": "Running Median Final",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h021",
+  "title": "Count Words With Prefix",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h022",
+  "title": "Rotate Matrix K Times",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h023",
+  "title": "Split Into K Parts Minimum Largest",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h024",
+  "title": "Interval List Intersections",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h025",
+  "title": "Count Distinct Subsequences",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h026",
+  "title": "Maximum Bipartite Matching",
+  "difficulty": "hard",
+  "family": "flow_matching",
+  "topics": [
+   "graph",
+   "matching"
+  ]
+ },
+ {
+  "id": "h027",
+  "title": "Max Profit With K Transactions",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h028",
+  "title": "Interleaving Strings",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h029",
+  "title": "Unbounded Knapsack",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h030",
+  "title": "Minimum Spanning Tree Cost",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h031",
+  "title": "Word Search In Grid",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h032",
+  "title": "Trapping Rain Water",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h033",
+  "title": "Kth Smallest Pair Distance",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h034",
+  "title": "Best Time To Buy And Sell Twice",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h035",
+  "title": "Tree Node Count",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h036",
+  "title": "Largest Component",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h037",
+  "title": "Subarrays With Exactly K Distinct",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h038",
+  "title": "Stone Game Score Difference",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h039",
+  "title": "Minimum Assignment Cost",
+  "difficulty": "hard",
+  "family": "bitmask_dp",
+  "topics": [
+   "bitmask",
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h040",
+  "title": "Longest Bitonic Subsequence",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h041",
+  "title": "Weighted Interval Scheduling",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h042",
+  "title": "Word Break Count",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h043",
+  "title": "Perfect Squares Count",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h044",
+  "title": "Count Collinear Triples",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h045",
+  "title": "Longest Increasing Path In Matrix",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h046",
+  "title": "Permutation Sequence Rank",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h047",
+  "title": "Merge K Sorted Lists Flat",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h048",
+  "title": "Count Distinct Prefixes",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h049",
+  "title": "Spiral Layers",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h050",
+  "title": "Split Into K Parts Maximum Smallest",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h051",
+  "title": "Employee Free Time",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h052",
+  "title": "Count Good Substrings",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h053",
+  "title": "Minimum Vertex Cover Size",
+  "difficulty": "hard",
+  "family": "flow_matching",
+  "topics": [
+   "graph",
+   "matching"
+  ]
+ },
+ {
+  "id": "h054",
+  "title": "House Robber Circular",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h055",
+  "title": "Wildcard Pattern Matching",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h056",
+  "title": "Knapsack Minimum Weight For Value",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h057",
+  "title": "Network Delay Time",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h058",
+  "title": "Combination Sum Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h059",
+  "title": "Sum Of Subarray Minimums",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h060",
+  "title": "Minimum Days For Bouquets",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h061",
+  "title": "Best Time With Cooldown",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h062",
+  "title": "Tree Leaf Count",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h063",
+  "title": "Component Sizes Sorted",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h064",
+  "title": "Count Nice Subarrays",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h065",
+  "title": "Divisor Game",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h066",
+  "title": "Maximum Assignment Value",
+  "difficulty": "hard",
+  "family": "bitmask_dp",
+  "topics": [
+   "bitmask",
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h067",
+  "title": "Maximum Sum Increasing Subsequence",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h068",
+  "title": "Maximum Jobs Without Overlap",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h069",
+  "title": "Concatenated Word Count",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h070",
+  "title": "Super Power Modulo",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h071",
+  "title": "Minimum Area Rectangle",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h072",
+  "title": "Count Square Submatrices Of Ones",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h073",
+  "title": "Derangement Count",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h074",
+  "title": "Smallest Range Covering",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h075",
+  "title": "Longest Common Prefix Of All",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h076",
+  "title": "Sort Matrix Diagonals",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h077",
+  "title": "Minimum Cost To Cut Into K",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h078",
+  "title": "Remove Covered Intervals",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h079",
+  "title": "Count Homogenous Substrings",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h080",
+  "title": "Count Perfect Matchings",
+  "difficulty": "hard",
+  "family": "flow_matching",
+  "topics": [
+   "graph",
+   "matching"
+  ]
+ },
+ {
+  "id": "h081",
+  "title": "Delete And Earn",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h082",
+  "title": "Regular Expression Matching",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h083",
+  "title": "Count Knapsack Combinations",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h084",
+  "title": "Count Reachable Within Budget",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h085",
+  "title": "Permutations Count With Duplicates",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h086",
+  "title": "Sum Of Subarray Maximums",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h087",
+  "title": "Maximum Minimum Distance",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h088",
+  "title": "Count Smaller After Self",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h089",
+  "title": "Tree Diameter",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h090",
+  "title": "Redundant Connection Index",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h091",
+  "title": "Longest Substring With K Repeats",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h092",
+  "title": "Nim Game",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h093",
+  "title": "Count Perfect Matchings Below Cost",
+  "difficulty": "hard",
+  "family": "bitmask_dp",
+  "topics": [
+   "bitmask",
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h094",
+  "title": "Minimum Deletions To Sort",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h095",
+  "title": "Minimum Platforms",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h096",
+  "title": "Longest String Chain",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h097",
+  "title": "Fraction To Decimal Repeating",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h098",
+  "title": "Closest Pair Distance Squared",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h099",
+  "title": "Dungeon Minimum Health",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h100",
+  "title": "Bell Number",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h101",
+  "title": "Sliding Window Median",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h102",
+  "title": "Replace Words With Roots",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h103",
+  "title": "Count Submatrices Summing To K",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h104",
+  "title": "Partition For Maximum Sum Of Maxima",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h105",
+  "title": "Union Length Of Two Sets",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h106",
+  "title": "Count Substrings With All Three",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h107",
+  "title": "Maximum Independent Set Bipartite",
+  "difficulty": "hard",
+  "family": "flow_matching",
+  "topics": [
+   "graph",
+   "matching"
+  ]
+ },
+ {
+  "id": "h108",
+  "title": "Minimum Swaps To Sort",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h109",
+  "title": "Longest Palindromic Subsequence",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h110",
+  "title": "Knapsack Item Count",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h111",
+  "title": "Path Exists Within Weight",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h112",
+  "title": "Restore IP Addresses Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h113",
+  "title": "Maximal Rectangle Of Ones",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h114",
+  "title": "Minimum Capacity To Ship",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h115",
+  "title": "Count Reverse Pairs",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h116",
+  "title": "Tree Is Balanced",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h117",
+  "title": "Edges To Connect All",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h118",
+  "title": "Max Sum Of Two Non-Overlapping",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h119",
+  "title": "Can First Player Force Win",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h120",
+  "title": "Shortest Path Visiting All Nodes",
+  "difficulty": "hard",
+  "family": "bitmask_dp",
+  "topics": [
+   "bitmask",
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h121",
+  "title": "Longest Non-Decreasing Subsequence",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h122",
+  "title": "Job Sequencing Max Profit",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h123",
+  "title": "Shortest Palindrome By Prefix",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h124",
+  "title": "Count Numbers With Unique Digits",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h125",
+  "title": "Count Points Inside Circle",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h126",
+  "title": "Cherry Pickup Two Passes",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h127",
+  "title": "Stirling Second Kind Total",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h128",
+  "title": "Task Scheduler Intervals",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h129",
+  "title": "Maximum XOR Pair",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h130",
+  "title": "Maximum Side Length With Sum Below K",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h131",
+  "title": "Count Ways To Split Into K Parts",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h132",
+  "title": "Intersection Total Length",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h133",
+  "title": "Count Unique Character Sum",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h134",
+  "title": "Has Perfect Matching",
+  "difficulty": "hard",
+  "family": "flow_matching",
+  "topics": [
+   "graph",
+   "matching"
+  ]
+ },
+ {
+  "id": "h135",
+  "title": "Paint Fence Ways",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h136",
+  "title": "Minimum Insertions For Palindrome",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h137",
+  "title": "Subset Sum Reachable",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h138",
+  "title": "Maximum Edge On Shortest Path",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h139",
+  "title": "Palindrome Partitions Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h140",
+  "title": "Lexicographically Smallest Distinct Subsequence",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h141",
+  "title": "Smallest Divisor Within Threshold",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h142",
+  "title": "Longest Consecutive Sequence",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h143",
+  "title": "Tree Maximum Root To Leaf Sum",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h144",
+  "title": "Is Single Component",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h145",
+  "title": "Longest Balanced Binary Substring",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h146",
+  "title": "Predict The Winner",
+  "difficulty": "hard",
+  "family": "game_dp",
+  "topics": [
+   "dynamic-programming",
+   "game-theory"
+  ]
+ },
+ {
+  "id": "h147",
+  "title": "Russian Doll Pairs",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h148",
+  "title": "Total Busy Time",
+  "difficulty": "hard",
+  "family": "scheduling",
+  "topics": [
+   "greedy",
+   "intervals",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h149",
+  "title": "Repeated DNA Sequences Count",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h150",
+  "title": "Integer Partitions Count",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h151",
+  "title": "Convex Hull Size",
+  "difficulty": "hard",
+  "family": "geometry",
+  "topics": [
+   "geometry",
+   "math"
+  ]
+ },
+ {
+  "id": "h152",
+  "title": "Paint House Minimum Cost",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h153",
+  "title": "Count Binary Trees By Nodes",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h154",
+  "title": "Maximum Capital After K Projects",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h155",
+  "title": "Words Matching Wildcard",
+  "difficulty": "hard",
+  "family": "trie_prefix",
+  "topics": [
+   "string",
+   "trie"
+  ]
+ },
+ {
+  "id": "h156",
+  "title": "Transpose And Reverse Rows",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h157",
+  "title": "Minimum Difference Of Two Parts",
+  "difficulty": "hard",
+  "family": "partition_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h158",
+  "title": "Count Overlapping Pairs",
+  "difficulty": "hard",
+  "family": "interval_hard",
+  "topics": [
+   "intervals"
+  ]
+ },
+ {
+  "id": "h159",
+  "title": "Count Vowel Permutation Length",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h160",
+  "title": "Longest Arithmetic Subsequence",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h161",
+  "title": "Shortest Common Supersequence Length",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h162",
+  "title": "Partition Into Two Equal Weights",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h163",
+  "title": "Second Shortest Distance",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h164",
+  "title": "Partition Into K Equal Sums",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h165",
+  "title": "Previous Smaller Elements",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h166",
+  "title": "Kth Smallest In Sorted Matrix",
+  "difficulty": "hard",
+  "family": "binary_search_answer",
+  "topics": [
+   "binary-search",
+   "greedy"
+  ]
+ },
+ {
+  "id": "h167",
+  "title": "Candy Distribution",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h168",
+  "title": "Tree Minimum Root To Leaf Sum",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h169",
+  "title": "Count Redundant Edges",
+  "difficulty": "hard",
+  "family": "union_find",
+  "topics": [
+   "graph",
+   "union-find"
+  ]
+ },
+ {
+  "id": "h170",
+  "title": "Fruit Into Baskets",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h171",
+  "title": "Longest Divisible Subset Size",
+  "difficulty": "hard",
+  "family": "lis_family",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h172",
+  "title": "Longest Duplicate Substring",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h173",
+  "title": "Euler Totient",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h174",
+  "title": "Maximum Sum Rectangle",
+  "difficulty": "hard",
+  "family": "grid_dp_hard",
+  "topics": [
+   "dynamic-programming",
+   "matrix"
+  ]
+ },
+ {
+  "id": "h175",
+  "title": "Multinomial Middle Coefficient",
+  "difficulty": "hard",
+  "family": "combinatorics_hard",
+  "topics": [
+   "combinatorics",
+   "math"
+  ]
+ },
+ {
+  "id": "h176",
+  "title": "Kth Largest Sum Of Subarrays",
+  "difficulty": "hard",
+  "family": "heap_hard",
+  "topics": [
+   "heap",
+   "sorting"
+  ]
+ },
+ {
+  "id": "h177",
+  "title": "Count Distinct Rows",
+  "difficulty": "hard",
+  "family": "matrix_hard",
+  "topics": [
+   "matrix"
+  ]
+ },
+ {
+  "id": "h178",
+  "title": "Count Binary Substrings",
+  "difficulty": "hard",
+  "family": "counting_hard",
+  "topics": [
+   "counting",
+   "math"
+  ]
+ },
+ {
+  "id": "h179",
+  "title": "Max Alternating Subsequence Sum",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h180",
+  "title": "Edit Distance With Costs",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h181",
+  "title": "Target Sum Assignments",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h182",
+  "title": "Total Shortest Path Weight",
+  "difficulty": "hard",
+  "family": "graph_weighted",
+  "topics": [
+   "graph",
+   "shortest-path"
+  ]
+ },
+ {
+  "id": "h183",
+  "title": "Letter Case Permutation Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h184",
+  "title": "Count Visible Bars",
+  "difficulty": "hard",
+  "family": "monotonic_stack",
+  "topics": [
+   "monotonic-stack",
+   "stack"
+  ]
+ },
+ {
+  "id": "h185",
+  "title": "Maximum Product Subarray",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h186",
+  "title": "Tree Level Order Values",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h187",
+  "title": "Max Consecutive Ones After K Flips",
+  "difficulty": "hard",
+  "family": "sliding_window_hard",
+  "topics": [
+   "sliding-window"
+  ]
+ },
+ {
+  "id": "h188",
+  "title": "Minimum Window Subsequence Length",
+  "difficulty": "hard",
+  "family": "string_hard",
+  "topics": [
+   "string"
+  ]
+ },
+ {
+  "id": "h189",
+  "title": "Sum Of Divisors",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h190",
+  "title": "Min Steps To Equal Elements",
+  "difficulty": "hard",
+  "family": "state_dp",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h191",
+  "title": "Longest Repeated Substring Length",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h192",
+  "title": "Bounded Knapsack Two Copies",
+  "difficulty": "hard",
+  "family": "knapsack",
+  "topics": [
+   "dynamic-programming"
+  ]
+ },
+ {
+  "id": "h193",
+  "title": "Generate Parentheses Count",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h194",
+  "title": "Shortest Unsorted Window",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h195",
+  "title": "Tree Sum Of All Nodes",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "h196",
+  "title": "Count Trailing Zeros In Base B",
+  "difficulty": "hard",
+  "family": "math_hard",
+  "topics": [
+   "math"
+  ]
+ },
+ {
+  "id": "h197",
+  "title": "Palindrome Partition Minimum Cuts",
+  "difficulty": "hard",
+  "family": "dp_2d_strings",
+  "topics": [
+   "dynamic-programming",
+   "string"
+  ]
+ },
+ {
+  "id": "h198",
+  "title": "Sudoku Row Validity",
+  "difficulty": "hard",
+  "family": "backtracking",
+  "topics": [
+   "backtracking"
+  ]
+ },
+ {
+  "id": "h199",
+  "title": "Longest Turbulent Subarray",
+  "difficulty": "hard",
+  "family": "advanced_array",
+  "topics": [
+   "array"
+  ]
+ },
+ {
+  "id": "h200",
+  "title": "Tree Right Side View",
+  "difficulty": "hard",
+  "family": "tree_array",
+  "topics": [
+   "recursion",
+   "tree"
+  ]
+ },
+ {
+  "id": "w001",
+  "title": "Sleep In",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w002",
+  "title": "String Times",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w003",
+  "title": "Hello Name",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w004",
+  "title": "Double Char",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w005",
+  "title": "First Last Six",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w006",
+  "title": "Count Evens",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w007",
+  "title": "Cigar Party",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w008",
+  "title": "Double23",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w009",
+  "title": "Word Count",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w010",
+  "title": "Monkey Trouble",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w011",
+  "title": "Front Times",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w012",
+  "title": "Make Abba",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w013",
+  "title": "Count Hi",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w014",
+  "title": "Same First Last",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w015",
+  "title": "Big Diff",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w016",
+  "title": "Date Fashion",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w017",
+  "title": "Fix23",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w018",
+  "title": "Word Length",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w019",
+  "title": "Sum Double",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w020",
+  "title": "Count XX",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w021",
+  "title": "Make Tags",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w022",
+  "title": "Cat Dog",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w023",
+  "title": "Ends Sum",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w024",
+  "title": "Centered Average",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w025",
+  "title": "Squirrel Play",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w026",
+  "title": "Start1",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w027",
+  "title": "First Char Groups",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w028",
+  "title": "Diff 21",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w029",
+  "title": "Double X",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w030",
+  "title": "Insert Word",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w031",
+  "title": "Count Code",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w032",
+  "title": "Common End",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w033",
+  "title": "Sum13",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w034",
+  "title": "Caught Speeding",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w035",
+  "title": "Biggest Two",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w036",
+  "title": "Words Appearing Once",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w037",
+  "title": "Parrot Trouble",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w038",
+  "title": "String Bits",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w039",
+  "title": "Multiple Endings",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w040",
+  "title": "End Other",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w041",
+  "title": "Sum Three",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w042",
+  "title": "Sum67",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w043",
+  "title": "Sorta Sum",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w044",
+  "title": "Mid Three",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w045",
+  "title": "Word Multiple",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w046",
+  "title": "Makes Ten",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w047",
+  "title": "String Splosion",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w048",
+  "title": "First Half",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w049",
+  "title": "Xyz There",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w050",
+  "title": "Rotate Left Three",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w051",
+  "title": "Has22",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w052",
+  "title": "Alarm Clock",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w053",
+  "title": "Get Mid Point",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w054",
+  "title": "Pairs By Ends",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w055",
+  "title": "Near Hundred",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w056",
+  "title": "Last Two Count",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w057",
+  "title": "Without End",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w058",
+  "title": "Bob There",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w059",
+  "title": "Reverse Three",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w060",
+  "title": "Lucky13",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w061",
+  "title": "Love6",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w062",
+  "title": "No Triples",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w063",
+  "title": "All Swap",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w064",
+  "title": "Pos Neg",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w065",
+  "title": "Array Count Nine",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w066",
+  "title": "Combo String",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w067",
+  "title": "Xy Balance",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w068",
+  "title": "Max End",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w069",
+  "title": "Sum28",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w070",
+  "title": "In1To10",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w071",
+  "title": "Pattern51",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w072",
+  "title": "Char Frequency",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w073",
+  "title": "Not String",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w074",
+  "title": "Array Front Nine",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w075",
+  "title": "Non Start",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w076",
+  "title": "Mix String",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w077",
+  "title": "Sum Two",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w078",
+  "title": "More14",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w079",
+  "title": "Special Eleven",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w080",
+  "title": "Post4",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w081",
+  "title": "Longest Word Per Letter",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w082",
+  "title": "Missing Char",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w083",
+  "title": "Array123",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w084",
+  "title": "Left Two",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w085",
+  "title": "Repeat Front",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w086",
+  "title": "Middle Way",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w087",
+  "title": "Only14",
+  "difficulty": "warmup",
+  "family": "cb_list2",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w088",
+  "title": "Answer Cell",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w089",
+  "title": "Not Alone",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w090",
+  "title": "Sum By Length",
+  "difficulty": "warmup",
+  "family": "cb_map",
+  "topics": [
+   "codingbat",
+   "hash-table"
+  ]
+ },
+ {
+  "id": "w091",
+  "title": "Front Back",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w092",
+  "title": "String Match",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w093",
+  "title": "Right Two",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w094",
+  "title": "Prefix Again",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w095",
+  "title": "Make Ends",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w096",
+  "title": "Twenty Difference",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w097",
+  "title": "Zero Front",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w098",
+  "title": "Front Three",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w099",
+  "title": "String X",
+  "difficulty": "warmup",
+  "family": "cb_warmup2",
+  "topics": [
+   "array",
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w100",
+  "title": "The End",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w101",
+  "title": "Count Triple",
+  "difficulty": "warmup",
+  "family": "cb_string2",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w102",
+  "title": "Has23",
+  "difficulty": "warmup",
+  "family": "cb_list1",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w103",
+  "title": "Near Ten",
+  "difficulty": "warmup",
+  "family": "cb_logic",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w104",
+  "title": "Only Positive",
+  "difficulty": "warmup",
+  "family": "cb_array",
+  "topics": [
+   "array",
+   "codingbat"
+  ]
+ },
+ {
+  "id": "w105",
+  "title": "Back Around",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w106",
+  "title": "Without End Two",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w107",
+  "title": "Or 35",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w108",
+  "title": "Middle Two",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ },
+ {
+  "id": "w109",
+  "title": "Front Again",
+  "difficulty": "warmup",
+  "family": "cb_warmup1",
+  "topics": [
+   "codingbat",
+   "logic"
+  ]
+ },
+ {
+  "id": "w110",
+  "title": "Ends Ly",
+  "difficulty": "warmup",
+  "family": "cb_string1",
+  "topics": [
+   "codingbat",
+   "string"
+  ]
+ }
+]
