@@ -50,7 +50,7 @@ UNIT_ID: {uid}
 UNIT_TITLE: {title}
 DELIVERABLE: {deliverable}
 VERIFY_COMMAND: {verify}
-{directive}{notes}{existing}
+{statement}{directive}{notes}{existing}
 Do this one unit now. Emit the complete file(s) using the <<<FILE ...>>> protocol."""
 
 
@@ -77,7 +77,9 @@ def build_prompt(spec, unit, state, workspace):
             "\n".join("- " + f for f in shown)
             + ("\n- ... and %d more" % (len(files) - len(shown)) if len(files) > len(shown) else ""),
         )
+    statement = _fmt_block("PROBLEM", unit.get("statement", ""))
     return WORKER_PROMPT.format(
+        statement=statement,
         goal=spec["goal"],
         criteria="\n".join("- " + c for c in spec["success_criteria"]) or "- (none stated)",
         index=unit["index"], uid=unit["id"], title=unit["title"],
@@ -119,9 +121,10 @@ def run_verify(cfg, workspace, command):
             capture_output=True, text=True, encoding="utf-8", errors="replace",
             timeout=cfg["run"].get("verify_timeout_s", 120),
         )
+        out = ((proc.stdout or "") + (proc.stderr or ""))[-4000:]
         return {
             "skipped": False, "command": command, "returncode": proc.returncode,
-            "output": ((proc.stdout or "") + (proc.stderr or ""))[-4000:],
+            "output": out, "pass_rate": _parse_pass_rate(out),
         }
     except subprocess.TimeoutExpired:
         return {"skipped": False, "command": command, "returncode": 124,
@@ -129,6 +132,23 @@ def run_verify(cfg, workspace, command):
     except Exception as e:                       # noqa: BLE001 - never kill the run here
         return {"skipped": False, "command": command, "returncode": 1,
                 "output": "verify could not run: %s" % e}
+
+
+PASS_RE = re.compile(r"(\d+)\s*/\s*(\d+)\s+passed")
+
+
+def _parse_pass_rate(output):
+    """Pull "12/16 passed" out of the evaluator's output.
+
+    A partial pass rate is a far better signal than a bare exit code: it separates
+    "wrote nothing that runs" from "got the edge cases wrong", and it is what the
+    decay curve is plotted from.
+    """
+    m = PASS_RE.search(output or "")
+    if not m:
+        return None
+    passed, total = int(m.group(1)), int(m.group(2))
+    return round(passed / total, 4) if total else 0.0
 
 
 def execute_unit(cfg, run, spec, unit, state, workspace):

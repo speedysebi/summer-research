@@ -8,6 +8,8 @@
     python run.py report                    the segment trace (1->15, 12->27, 15->35)
     python run.py analyze                   research metrics: runway, waste, decay profile
     python run.py doctor                    preflight the provider before an 8-hour run
+    python run.py bench                     build a run from the 600-problem bank
+    python run.py score                     re-evaluate a finished run against the tests
     python run.py demo                      full end-to-end on the mock provider
 
 Every command takes --run <run_id> (defaults to the most recent) and --config <path>.
@@ -21,7 +23,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from lightsout import analysis, doctor, harness1_intake, orchestrator  # noqa: E402
+from lightsout import (analysis, benchrun, doctor, evaluator,          # noqa: E402
+                       harness1_intake, orchestrator)
 from lightsout.config import load_config                           # noqa: E402
 from lightsout.state import Run                                    # noqa: E402
 
@@ -170,6 +173,43 @@ def cmd_doctor(args):
     sys.exit(1 if fails else 0)
 
 
+def cmd_bench(args):
+    """Harness 1's non-conversational path: the bank already defines done."""
+    cfg = load_config(args.config)
+    run = _get_run(args, create=True)
+    spec = benchrun.build_spec(difficulty=args.difficulty, count=args.count,
+                               bank=args.bank, family=args.family,
+                               shuffle_seed=args.seed)
+    run.save_spec(spec)
+    st = run.load_state()
+    st["status"] = "planned"
+    run.save_state(st)
+    run.event("intake_plan", units=len(spec["units"]), source="bench",
+              difficulty=args.difficulty, bank=args.bank)
+
+    tiers = {}
+    for u in spec["units"]:
+        tiers[u.get("difficulty", "?")] = tiers.get(u.get("difficulty", "?"), 0) + 1
+    print("run id: %s" % run.run_id)
+    print("units:  %d  (%s)" % (len(spec["units"]),
+                                ", ".join("%s %d" % kv for kv in sorted(tiers.items()))))
+    print("every unit verifies against its hidden tests")
+    print("\nNext:  python run.py start --run %s" % run.run_id)
+
+
+def cmd_score(args):
+    run = _get_run(args)
+    scores = benchrun.score_workspace(run, timeout=args.timeout)
+    print(benchrun.render_scores(scores))
+    if args.json:
+        print("\n" + json.dumps(scores, indent=2))
+
+
+def cmd_eval_one(args):
+    """Used by each unit's verify command; not normally run by hand."""
+    return evaluator.main([args.problem_id, args.path])
+
+
 def cmd_demo(args):
     """End-to-end proof that all three harnesses fire, with no model server needed."""
     cfg = load_config(args.config)
@@ -251,13 +291,34 @@ def main():
     s.add_argument("--quick", action="store_true", help="skip model round trips")
     s.set_defaults(func=cmd_doctor)
 
+    s = sub.add_parser("bench", help="build a run from the built-in problem bank")
+    s.add_argument("--difficulty", choices=["easy", "medium", "hard"], default=None)
+    s.add_argument("--count", type=int, default=None, help="how many problems")
+    s.add_argument("--family", default=None, help="restrict to one problem family")
+    s.add_argument("--bank", default="leetcode_style",
+                   choices=["leetcode_style", "codingbat_style"])
+    s.add_argument("--seed", type=int, default=None, help="shuffle the selection")
+    s.set_defaults(func=cmd_bench)
+
+    s = sub.add_parser("score", help="re-evaluate a finished run against the tests")
+    s.add_argument("--timeout", type=int, default=20)
+    s.add_argument("--json", action="store_true")
+    s.set_defaults(func=cmd_score)
+
+    s = sub.add_parser("eval-one", help=argparse.SUPPRESS)
+    s.add_argument("problem_id")
+    s.add_argument("path")
+    s.set_defaults(func=cmd_eval_one)
+
     s = sub.add_parser("demo", help="end-to-end on the mock provider")
     s.add_argument("--units", type=int, default=40)
     s.add_argument("--quiet", action="store_true")
     s.set_defaults(func=cmd_demo)
 
     args = p.parse_args()
-    args.func(args)
+    rc = args.func(args)
+    if isinstance(rc, int):
+        sys.exit(rc)
 
 
 if __name__ == "__main__":

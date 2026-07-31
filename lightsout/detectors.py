@@ -156,6 +156,24 @@ def detect_verify_failure(verify_result):
                   35, [tail])
 
 
+def detect_wrong_answer(verify_result):
+    """Graded correctness from the evaluator.
+
+    A pass rate is the strongest signal in the system: it is measured, not judged.
+    Scored proportionally so "failed two edge cases" and "nothing works" are not the
+    same event -- the first is a NOTE, the second stops the run.
+    """
+    if not verify_result or verify_result.get("skipped"):
+        return None
+    rate = verify_result.get("pass_rate")
+    if rate is None or rate >= 1.0:
+        return None
+    ceiling = int(round(rate * 70))          # a full pass is required to clear the floor
+    tail = (verify_result.get("output") or "")[-300:]
+    return Signal("wrong_answer", "only %d%% of the tests pass" % round(rate * 100),
+                  ceiling, [tail])
+
+
 def run_all(new_text, files, changed_files, diff_text, verify_result, deliverable,
             is_replay=False):
     """Run every detector. Returns (signals, score_ceiling)."""
@@ -167,6 +185,7 @@ def run_all(new_text, files, changed_files, diff_text, verify_result, deliverabl
         detect_no_work(files, changed_files, deliverable, is_replay),
         detect_deletion(diff_text),
         detect_verify_failure(verify_result),
+        detect_wrong_answer(verify_result),
     ) if s is not None]
     ceiling = min([s.severity for s in signals], default=100)
     return signals, ceiling

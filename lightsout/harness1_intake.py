@@ -287,14 +287,20 @@ def _normalize(plan, request, qa, cfg):
         if checkpoint is None:
             checkpoint = (i % every == 0)
         verify = (u.get("verify") or "none").strip()
-        units.append({
+        unit = {
             "index": i,
             "id": str(u.get("id") or ("u%03d" % i)),
             "title": str(u.get("title") or ("Unit %d" % i)),
             "deliverable": str(u.get("deliverable") or u.get("title") or ""),
             "verify": verify,
             "checkpoint": bool(checkpoint),
-        })
+        }
+        # Benchmark units carry the full problem text and its bank id; the worker
+        # needs the statement and the evaluator needs the id.
+        for extra in ("statement", "problem_id", "difficulty"):
+            if u.get(extra):
+                unit[extra] = str(u[extra])
+        units.append(unit)
     if units and not units[-1]["checkpoint"]:
         units[-1]["checkpoint"] = True      # always inspect the final state
     return {

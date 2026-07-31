@@ -78,8 +78,35 @@ def summarize(run, note_floor=70):
             by_depth.setdefault(r["unit_index"] - base, []).append(r["score"])
     decay = {d: round(_mean(v), 1) for d, v in sorted(by_depth.items())}
 
+    # Measured correctness, where the run used the benchmark. This is the only
+    # number here that is ground truth rather than judgment.
+    rated = [e for e in done_events if e.get("pass_rate") is not None]
+    solved = sum(1 for e in rated if e["pass_rate"] >= 1.0)
+    by_tier = {}
+    for e in rated:
+        tier = e.get("difficulty") or "?"
+        by_tier.setdefault(tier, []).append(e["pass_rate"])
+    accuracy_by_tier = {t: {"n": len(v), "solved_pct": round(
+        100.0 * sum(1 for r in v if r >= 1.0) / len(v), 1),
+        "mean_pass_pct": round(100.0 * _mean(v), 1)} for t, v in by_tier.items()}
+    # Accuracy against position within a segment: the decay curve, measured.
+    acc_curve = {}
+    for e in rated:
+        seg = e.get("segment", 1)
+        base = min((x.get("unit_index", 0) for x in rated
+                    if x.get("segment", 1) == seg), default=0)
+        acc_curve.setdefault(e.get("unit_index", 0) - base, []).append(e["pass_rate"])
+
     elapsed = state.get("elapsed_s") or 0.0
     return {
+        "evaluated_units": len(rated),
+        "solved_units": solved,
+        "solved_pct": round(100.0 * solved / len(rated), 1) if rated else None,
+        "mean_pass_pct": round(100.0 * _mean([e["pass_rate"] for e in rated]), 1)
+                         if rated else None,
+        "accuracy_by_tier": accuracy_by_tier,
+        "accuracy_curve": {d: round(100.0 * _mean(v), 1)
+                           for d, v in sorted(acc_curve.items())},
         "run_id": run.run_id,
         "status": state.get("status"),
         "total_units": total_units,
@@ -113,8 +140,11 @@ def summarize(run, note_floor=70):
 def to_csv(run, path):
     """One row per checkpoint -- feed this straight into a plot."""
     reports = run.checkpoint_reports()
+    rates = {e.get("unit_index"): e.get("pass_rate")
+             for e in run.journal() if e["kind"] == "unit_done"}
     cols = ["checkpoint", "segment", "unit_index", "score", "model_score",
-            "detector_ceiling", "verdict", "baseline_before", "failure_modes", "note"]
+            "detector_ceiling", "pass_rate", "verdict", "baseline_before",
+            "failure_modes", "note"]
     with open(path, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(cols)
@@ -122,7 +152,7 @@ def to_csv(run, path):
             w.writerow([
                 r.get("checkpoint"), r.get("segment"), r.get("unit_index"),
                 r.get("score"), r.get("model_score"), r.get("detector_ceiling"),
-                r.get("verdict"),
+                rates.get(r.get("unit_index")), r.get("verdict"),
                 round(r["baseline_before"], 1) if r.get("baseline_before") else "",
                 "|".join(r.get("failure_modes") or []),
                 (r.get("note") or "").replace("\n", " "),
@@ -157,6 +187,20 @@ def render(summary):
         out.append("  root causes       " + ", ".join(
             "%s x%d" % (k, v) for k, v in s["root_causes"].items()))
     out.append("")
+    if s.get("evaluated_units"):
+        out.append("MEASURED CORRECTNESS  (from the problem bank's hidden tests)")
+        out.append("  solved outright   %d / %d  (%.1f%%)"
+                   % (s["solved_units"], s["evaluated_units"], s["solved_pct"]))
+        out.append("  mean pass rate    %.1f%% of test cases" % s["mean_pass_pct"])
+        for tier, v in sorted(s["accuracy_by_tier"].items()):
+            out.append("    %-8s n=%-4d solved %5.1f%%   mean pass %5.1f%%"
+                       % (tier, v["n"], v["solved_pct"], v["mean_pass_pct"]))
+        if s["accuracy_curve"]:
+            out.append("  accuracy by depth into a segment:")
+            for d in sorted(s["accuracy_curve"]):
+                v = s["accuracy_curve"][d]
+                out.append("    +%-3d %5.1f%% %s" % (d, v, "#" * int(round(v / 5.0))))
+        out.append("")
     out.append("WHO CAUGHT WHAT  (of %d sub-par checkpoints; is the judge earning its GPU time?)"
                % s["flagged_total"])
     out.append("  both agreed       %d" % s["caught_by_both"])

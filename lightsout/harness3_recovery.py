@@ -214,14 +214,17 @@ def recover(cfg, run, spec, state, workspace, halt_report, quiet=False):
         emit("  workspace restored to checkpoint %s (%s)"
               % (restore["checkpoint"], restore_sha[:8]))
     elif state.get("initial_sha"):
-        # Nothing in this run was ever clean. Go all the way back to the empty
-        # workspace and start over with the corrective directive -- leaving the bad
+        # Either nothing was ever clean, or the rewind target sits before the first
+        # checkpoint. Both mean starting from the empty workspace: leaving the bad
         # files in place would poison every later unit.
         restore_sha = state["initial_sha"]
         workspace.restore(restore_sha)
         target_index = 0
-        emit("  no clean checkpoint in this run -- restored to the empty workspace (%s)"
-              % restore_sha[:8])
+        emit("  rewound past the first checkpoint -- restored to the empty "
+             "workspace (%s)" % restore_sha[:8]
+             if anchor else
+             "  no clean checkpoint in this run -- restored to the empty "
+             "workspace (%s)" % restore_sha[:8])
     else:
         restore_sha = None
         emit("  no snapshot to restore -- keeping current files, rewinding cursor only")

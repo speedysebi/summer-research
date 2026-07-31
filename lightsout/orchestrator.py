@@ -123,8 +123,12 @@ def run_lights_out(cfg, run, quiet=False, provider_from_config=False):
         ws.commit("unit %d: %s" % (unit["index"], unit["title"][:60]))
         run.event("unit_done", unit_index=unit["index"], unit_id=unit["id"],
                   files=result["written"], verify_rc=result["verify"].get("returncode"),
+                  pass_rate=result["verify"].get("pass_rate"),
+                  problem_id=unit.get("problem_id"), difficulty=unit.get("difficulty"),
                   segment=state["segment"], sha=ws.head())
-        log("    wrote %s" % (", ".join(result["written"]) or "(no files)"))
+        rate = result["verify"].get("pass_rate")
+        log("    wrote %s%s" % (", ".join(result["written"]) or "(no files)",
+                                "" if rate is None else "   tests %d%%" % round(rate * 100)))
 
         if not unit["checkpoint"]:
             state["cursor"] += 1

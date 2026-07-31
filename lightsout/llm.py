@@ -261,6 +261,11 @@ class _MockBrain:
         fail_at = (self.mcfg.get("first_failure_unit", 15)
                    + st.get("recoveries", 0) * self.mcfg.get("improvement_per_recovery", 12))
         window = self.mcfg.get("decay_window", 3)
+        # Benchmark runs name the target file in the deliverable; honour it so the
+        # evaluator finds the solution where it expects to.
+        m3 = re.search(r"DELIVERABLE:\s*(\S+\.py)", user)
+        if m3:
+            return self._bench_worker(m3.group(1), idx, fail_at, window, title)
         path = "solutions/problem_%03d.py" % idx
 
         if idx < fail_at - window:
@@ -295,6 +300,30 @@ class _MockBrain:
                 + "    pass  # TODO\n"
                 + "    # handled above\n" * 12
             )
+        return "<<<FILE %s>>>\n%s<<<END>>>\nDone with %s." % (path, body, title)
+
+    def _bench_worker(self, path, idx, fail_at, window, title):
+        """A stand-in solver for bank problems.
+
+        It cannot actually solve them, so it returns a plausible wrong answer while
+        healthy and degrades into stubs past the failure point. That is what is needed
+        to exercise the evaluator wiring: the measured pass rate, not the prose, is
+        what stops the run.
+        """
+        if idx < fail_at - window:
+            body = ('"""%s."""\n\n\ndef solve(*args):\n'
+                    "    values = args[0] if args else []\n"
+                    "    try:\n"
+                    "        return sum(values)\n"
+                    "    except TypeError:\n"
+                    "        return values\n") % title
+        elif idx < fail_at:
+            body = ('"""%s."""\n\n\ndef solve(*args):\n'
+                    "    # TODO: handle the empty input case\n"
+                    "    return 0\n") % title
+        else:
+            body = ('"""%s."""\n\n\ndef solve(*args):\n'
+                    "    raise NotImplementedError  # TODO\n") % title
         return "<<<FILE %s>>>\n%s<<<END>>>\nDone with %s." % (path, body, title)
 
     # sentinel -------------------------------------------------------------- #
